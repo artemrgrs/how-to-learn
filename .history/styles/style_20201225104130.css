@@ -137,7 +137,6 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-bottom: 100px;
 }
 
 .section-title {
@@ -163,7 +162,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto 100px;
   text-align: left;
 }
 
@@ -176,6 +175,10 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
   margin: 0;
 }
 
@@ -202,7 +205,6 @@
   flex-direction: column;
   position: relative;
   background-color: #f2f2f2;
-  padding-top: 100px;
 }
 
 .feynman__title {
@@ -212,6 +214,7 @@
   font-size: 120px;
   font-weight: bold;
   text-align: center;
+  margin-top: 100px;
 }
 
 .feynman__subtitle {
@@ -264,11 +267,13 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  padding-top: 80px;
+  margin-right: 0;
+  margin-top: 80px;
 }
 
 .table__heading_theme_dark {
   padding-top: 0;
+
 }
 
 .table__text_theme_dark {
@@ -312,7 +317,7 @@
   flex-basis: 711px;
 }
 
-.logo_place_footer {
+.logo__place_footer {
   height: 35px;
   background-image: url('../images/logo_place_footer.svg');
   background-repeat: no-repeat;
