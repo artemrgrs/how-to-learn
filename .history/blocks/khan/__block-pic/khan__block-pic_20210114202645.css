@@ -1,0 +1,7 @@
+.khan__block-pic {
+    border: 1px solid red;
+    margin-right: 48px;
+    width: 620px;
+    height: 608px;
+    background-image: url('/images/images_sprint-2/khan-book.jpg');
+}
