@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     /* выше установили ограничения для секции */
     min-height: 600px;
     max-height: 756px;
