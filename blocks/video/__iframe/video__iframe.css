@@ -1,4 +1,11 @@
 .video__iframe {
-    padding-right: 10px;
+    padding-right: 20px;
+    width:515px;
+    height:316px;
+    border: 0;
+}
+
+.video__iframe:last-child {
+    padding: 0;
 }
 

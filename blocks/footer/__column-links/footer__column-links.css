@@ -5,7 +5,8 @@
     font-size: 18px;
     font-weight: normal;
     color: white;
-    margin-top: 20px;
-    margin-top: 16px;
+    margin: 0;
+    list-style: none;
+    padding: 20px 0 16px;
   }
   

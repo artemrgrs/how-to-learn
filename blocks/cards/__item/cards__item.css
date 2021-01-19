@@ -1,5 +1,7 @@
 .cards__item {
     padding-top: 60px;
+    margin: 0;
+    list-style-type: none;
     width: 240px;
     text-align: center;
     justify-content: center;

@@ -1,6 +1,7 @@
 .khan__block-pic {
     margin-right: 48px;
     width: 620px;
-    min-height: 608px;
-    background-image: url('../../../images/images_sprint-2/khan-book.jpg');
+    height: 608px;
+    object-fit: cover;
+    object-position: left top;
 }
